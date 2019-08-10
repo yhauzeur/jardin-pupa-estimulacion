@@ -4,14 +4,22 @@ img {
   border: 0px;
   margin: 0px;
   padding: 0px;
+   box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
 
 }
 
+/*body div{
+	min-width:350px;
+}*/
+
 img {
-	width: 450px;
-  max-width:auto;
-  display: block;
-  margin: 0 auto;
+	/*width: 300px;*/
+	min-width: 300px;
+  	max-width:50%;
+  	display: block;
+  	margin: 0 auto;
 }
 
 .img1{
@@ -20,16 +28,20 @@ img {
 .img2{
  background: #56b7e8;
 }
+.img3{
+ padding: 0 1em;
+ min-width: 250px;
+}
 .img5{
  background: #56b7e8;
- padding: 20px;
+ padding: 20px 2em;
 }
 .img6{
- padding: 50px;
+ padding: 50px 2em;
 }
 .img7{
  background: #72246b; 
- padding: 20px;
+ padding: 20px 2em;
 }
 .img8{
  background: #fff200;
@@ -37,5 +49,5 @@ img {
 }
 .img9 {
  background: #0c3a4f;
- padding: 20px;
+ padding: 20px 2em;
 }
