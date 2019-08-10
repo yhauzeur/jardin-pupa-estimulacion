@@ -1,0 +1,41 @@
+body,
+figure,
+img {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+img {
+	width: 450px;
+  max-width:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.img1{
+ background: #2b769c; 
+}
+.img2{
+ background: #56b7e8;
+}
+.img5{
+ background: #56b7e8;
+ padding: 20px;
+}
+.img6{
+ padding: 50px;
+}
+.img7{
+ background: #72246b; 
+ padding: 20px;
+}
+.img8{
+ background: #fff200;
+ padding-bottom: 50px;
+}
+.img9 {
+ background: #0c3a4f;
+ padding: 20px;
+}
